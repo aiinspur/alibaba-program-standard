@@ -48,6 +48,7 @@ public class AppTest
         user2.setName("hello");
 
         assertEquals(user1,user2);
+
         //assertTrue(Objects.equals(user1,user2));
         assertTrue(Objects.equals(user1.hashCode(),user2.hashCode()));
     }
